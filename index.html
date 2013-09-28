@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Flipping Animation with CSS</title>
+	<link href='http://fonts.googleapis.com/css?family=Kelly+Slab|Oleo+Script+Swash+Caps:400,700|Amaranth:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="main.css">
+</head>
+<body>
+	<div id="page">
+		<h1>Flipping animation with css</h1>
+		<div id="content">
+			<div class="flip-container floatL" ontouchstart="this.classList.toggle('hover');">
+				<div class="flipper">
+					<div class="front">
+						The front face
+					</div>
+					<div class="back">
+						The back face
+					</div>
+					<div class="clear"></div>
+				</div>
+				<p>Horizontal Flip</p>
+			</div>
+
+			<div class="vertical-flip-container flip-container floatR" ontouchstart="this.classList.toggle('hover');">
+				<div class="flipper">
+					<div class="front">
+						The front face
+					</div>
+					<div class="back">
+						The back face
+					</div>
+					<div class="clear"></div>
+				</div>
+				<p>Vertical Flip</p>
+			</div>
+			<div class="clear"></div>
+		</div>
+	</div>
+</body>
+</html>
